@@ -1,3 +1,17 @@
-/* TODO (optional): Define styles for dark mode */
+/* Dark mode theme tokens — applied via the .dark-mode class on the app root */
+.darkMode {
+  background-color: #1e1e1e;
+  color: #f5f5f5;
+}
 
-/* TODO (optional): Ensure text and background colors adjust for dark mode */
+.darkMode button {
+  background-color: #333;
+  color: #f5f5f5;
+  border-color: #555;
+}
+
+.darkMode select {
+  background-color: #2a2a2a;
+  color: #f5f5f5;
+  border: 1px solid #555;
+}
